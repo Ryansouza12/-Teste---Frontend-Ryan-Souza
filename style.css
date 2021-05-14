@@ -338,7 +338,7 @@ header.sticky ul li a
 {
     position: relative;
     max-width: 1910px;
-    margin-top: 179px;
+    margin-top: 234px;
     text-align: center;
 }
 #visao_do_cliente img
@@ -346,6 +346,7 @@ header.sticky ul li a
 
     max-width: 1903px;
 }
+
 #visao_do_cliente h3
 {
     position: relative;
@@ -374,8 +375,9 @@ header.sticky ul li a
 {
     position: relative;
     max-width: 1910px;
-    margin-top: 56px;
+    margin-top: 133px;
     text-align: left;
+    max-height: 865px;
 }
 #como_funciona img
 {
@@ -457,4 +459,338 @@ header.sticky ul li a
 #como_funciona li::marker
 {
     color: #39E5AC;
+}
+
+#precos
+{
+    margin-top: 50px;
+    max-width: 1903px;
+    height: 1800px;
+    width: 1905px;
+    background-color: whitesmoke;
+    text-align: center;
+    position: absolute;
+}
+#precos h3
+{
+    position: relative;
+    margin-top: 120px;
+    font-size: 56px;
+    color: #39E5AC;
+    font-weight: bolder;
+}
+#precos h4
+{
+    color: #3C3C3B;
+    font-size: 28px;
+    position: relative;
+}
+#precos #imgbox
+{
+    max-width: 1500px;
+    margin-top: 70px;
+    margin-left: 260px;
+    position: absolute;
+}
+#precos #imgbox img
+{
+    margin-inline: 20px;
+}
+#precos #headimg h5
+{
+    font-size: 38px;
+    letter-spacing: 2;
+    font-weight: bolder;
+    color: #525252;
+    position: relative;
+    margin-top: 150px;
+    max-width: 300px;
+    margin-left: 330px;
+}
+#precos #headimg h6
+{
+    font-size: 38px;
+    letter-spacing: 2;
+    font-weight: bolder;
+    color: #525252;
+    position: relative;
+    margin-top: -95px;
+    max-width: 300px;
+    margin-left: 800px;
+}
+#precos #headimg p
+{
+    font-size: 16px;
+    letter-spacing: 2;
+    font-weight: normal;
+    color: #525252;
+    position: relative;
+    margin-top: 0px;
+    max-width: 300px;
+    margin-left: 800px;
+}
+#precos #headimg h4
+{
+    font-size: 38px;
+    letter-spacing: 2;
+    font-weight: bolder;
+    color: #525252;
+    position: relative;
+    margin-top: -105px;
+    max-width: 300px;
+    margin-left: 1260px;
+}
+#precos p
+{
+    font-size: 16px;
+    letter-spacing: 2;
+    font-weight: normal;
+    color: #525252;
+    position: relative;
+    margin-top: 0px;
+    max-width: 300px;
+    margin-left: 1260px;
+}
+#precos #textbox1
+{
+    max-width: 550px;
+    text-align: justify;
+    position: relative;
+    margin-left: 330px;
+    margin-top: 140px;
+}
+#precos #textbox1 h6
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C3C3B;
+    margin-block: 10px;
+    margin-left: 0px;
+}
+#precos #textbox1 p
+{
+    color: #525252;
+    font-size: 14px;
+    width: 300px;
+    position: relative;
+    margin-left: 0px;
+
+}
+
+#precos #textbox2
+{
+    max-width: 550px;
+    text-align: justify;
+    position: relative;
+    margin-left: 790px;
+    margin-top: -670px;
+}
+#precos #textbox2 h6
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C3C3B;
+    margin-block: 8px;
+    margin-left: 0px;
+}
+#precos #textbox2 p
+{
+    color: #525252;
+    font-size: 14px;
+    width: 300px;
+    position: relative;
+    margin-left: 0px;
+
+}
+#precos #textbox3
+{
+    max-width: 550px;
+    text-align: justify;
+    position: relative;
+    margin-left: 1250px;
+    margin-top: -670px;
+}
+#precos #textbox3 h6
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C3C3B;
+    margin-block: 8px;
+    margin-left: 0px;
+}
+#precos #textbox3 p
+{
+    color: #525252;
+    font-size: 14px;
+    width: 300px;
+    position: relative;
+    margin-left: 0px;
+}
+#precos #linkbanner3
+{
+    width: 223px;
+    height: 81px;
+    position: relative;
+    margin-left: 375px;
+    margin-top: 15px;
+    background-image: url(linkimg.png);
+    text-align: center;
+    align-content: center;
+
+}
+#precos #linkbanner3 a
+{
+    position: relative;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    top: 24px;
+}
+#precos #linkbanner4
+{
+    width: 223px;
+    height: 81px;
+    position: relative;
+    margin-left: 835px;
+    margin-top: -75px;
+    background-image: url(linkimg.png);
+    text-align: center;
+    align-content: center;
+
+}
+#precos #linkbanner4 a
+{
+    position: relative;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    top: 24px;
+}
+#precos #linkbanner5
+{
+    width: 223px;
+    height: 81px;
+    position: relative;
+    margin-left: 1300px;
+    margin-top: -80px;
+    background-image: url(linkimg.png);
+    text-align: center;
+    align-content: center;
+
+}
+#precos #linkbanner5 a
+{
+    position: relative;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    top: 24px;
+}
+#footpreco
+{
+    text-align: center;
+    position: relative;
+    margin-top: 1550px;
+}
+#footpreco h3
+{
+    font-size: 28px;
+    color: #39E5AC;
+}
+#footpreco p
+{
+    font-size: 19px;
+    margin-block: 5px;
+    color: #3C3C3B;
+}
+#pedcontato
+{
+    position: absolute;
+    background-color: #39E5AC;
+    width: 1903px;
+    height: 100px;
+    margin-top: 60px;
+}
+#pedcontato p
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: normal;
+    width: 270px;
+    height: 50px;
+    margin-block-start: 25px;
+    margin-left: 360px;
+}
+#pedcontato #linkcont
+{
+    color: #fff;
+    font-size: 18px;
+    background-color: darkslategray;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 1300px;
+    margin-top: -30px;
+}
+#pedcontato #linkcont a
+{
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+}
+#contato
+{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 1903px;
+    height: 600px;
+    margin-top: 160px;
+    text-align: center;
+}
+#contato h3
+{
+    color: #39E5AC;
+    font-size: 31px;
+    margin-top: 90px;
+
+}
+#contato #txtarea
+{
+    width: 550px;
+    height: 250px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 650px;
+}
+#contato p
+{
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    margin-left: 260px;
+    margin-top: -80px;
+    width: 460px;
+    font-weight: bold;
+    background-color: #707070;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+footer
+{
+    position: absolute;
+    background-color: #707070;
+    width: 1903px;
+    height: 300px;
+    margin-top: 700px;
 }
