@@ -1,0 +1,460 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900,&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html
+{
+    scroll-behavior: smooth;
+    width: fit-content;
+}
+body
+{
+    min-height: 1000px;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+    transition: 0.2s;
+}
+header.sticky
+{
+    padding:10px 10px;
+    background-image: url(head.png) ;
+    
+}
+header .logo
+{
+    position: relative;
+    margin-left: 225px;
+    font-weight: 700;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    font-style: normal;
+}
+header ul
+{
+    margin-right: 225px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    margin: 0 17px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 24px;
+    transition: 0.6s;
+}
+header.sticky .logo,
+header.sticky ul li a
+{
+    color: #fff;
+}
+#banner
+{
+    max-height: 1500px;
+}
+#banner img
+{
+    position: relative;
+    max-width: 1903px;
+
+}
+.logobanner
+{
+    max-width: 630px;
+    max-height: 195px;
+    margin-top: -920px;
+    position: relative;
+    margin-left: 850px;
+}
+.logobanner img
+{
+    margin-bottom: 20px;
+    margin-left: 14.5px;
+    width: 800px;
+    position: relative;
+}
+.textBox
+{
+    max-width: 635px;
+    position: relative;
+    margin-left: 910px;
+    align-items: center;
+}
+.textBox h1
+{
+    width: 520px;
+    color: #525252;
+    margin-left: 57px;
+    font-size: 27px;
+}
+.textBox h2
+{
+    width: 560px;
+    color: #fff;
+    margin-left: 57px;
+    margin-top: 50px;
+}
+.linkbanner
+{
+    width: 223px;
+    height: 81px;
+    position: relative;
+    margin-left: 1175px;
+    margin-top: 55px;
+    background-image: url(linkimg.png);
+    text-align: center;
+    align-content: center;
+
+}
+.linkbanner a
+{   
+    
+    position: relative;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    top: 24px;
+}
+#vantagens
+{
+    position: relative;
+    max-width: 1910px;
+    margin-top: 348px;
+}
+#vantagens img
+{
+    max-width: 1903px;
+}
+#vantagens h3
+{
+    position: relative;
+    max-width: 500px;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-top: -1000px;
+    text-transform: uppercase;
+    font-style: bold;
+    color: #39E5AC;
+}
+#vantagens h4
+{
+    position: relative;
+    max-width: 700px;
+    font-size: 27px;
+    margin-left: 140px;
+    margin-top: 5px;
+    font-style: bold;
+    color: #3C3C3B;
+}
+#vantagens p
+{
+    position: relative;
+    max-width: 900px;
+    font-size: 27px;
+    margin-left: 140px;
+    margin-top: 0px;
+    font-style: bold;
+    color: #3C3C3B;
+}
+#textprom
+{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 140px;
+    max-width: 1000px;
+    max-height: auto;
+}
+
+
+#textprom #gest
+{
+    position: relative;
+    max-width: 450px;
+}
+#textprom #gest h5
+{
+    margin-left: 95px;
+    margin-top: -98px;
+}
+#textprom #gest p
+{
+    margin-left: 95px;
+    max-width: 330px;
+    margin-top: 11.5px;
+}
+
+
+
+
+
+#textprom #reduc
+{
+    position: relative;
+    max-width: 600px;
+    margin-top: 20px;
+
+}
+#textprom #reduc h5
+{
+    margin-left: 95px;
+    margin-top: -90px;
+    max-width: 480px;
+}
+#textprom #reduc p
+{
+    margin-left: 95px;
+    max-width: 330px;
+    max-height: 235px;
+    margin-top: 11.5px;
+}
+
+
+#textprom #agil
+{
+    position: relative;
+    max-width: 500px;
+    margin-top: 0px;
+
+}
+#textprom #agil h5
+{
+    margin-left: 95px;
+    margin-top: -60px;
+    max-width: 406px;
+
+}
+#textprom #agil p
+{
+    margin-left: 95px;
+    max-width: 330px;
+    margin-top: 11px;
+}
+
+
+
+
+
+#textprom #opin
+{
+    position: relative;
+    max-width: 600px;
+    margin-left: 50%;
+    margin-top: -690px;
+}
+#textprom #opin h5
+{
+    margin-left: 95px;
+    margin-top: -90px;
+}
+#textprom #opin p
+{
+    margin-left: 95px;
+    max-width: 330px;
+}
+
+
+#textprom #estam
+{
+    position: relative;
+    max-width: 600px;
+    margin-left: 48%;
+    margin-top: 40px;
+
+}
+#textprom #estam h5
+{
+    margin-left: 95px;
+    margin-top: -97px;
+}
+#textprom #estam p
+{
+    margin-left: 95px;
+    max-width: 330px;
+}
+
+
+#textprom #preserv
+{
+    position: relative;
+    max-width: 600px;
+    margin-left: 48%;
+    margin-top: 40px;
+}
+#textprom #preserv h5
+{
+    margin-left: 95px;
+    margin-top: -105px;
+}
+#textprom #preserv p
+{
+    max-width: 330px;
+    max-height: 121px;
+    margin-left: 95px;
+}
+
+#textprom h5
+{
+    color: #39E5AC;
+    font-size: 21px;
+}
+#textprom p
+{
+    color: #707070;
+    font-size: 15px;
+}
+
+#visao_do_cliente
+{
+    position: relative;
+    max-width: 1910px;
+    margin-top: 179px;
+    text-align: center;
+}
+#visao_do_cliente img
+{
+
+    max-width: 1903px;
+}
+#visao_do_cliente h3
+{
+    position: relative;
+    font-size: 61px;
+    color: #39E5AC;
+    margin-top: -48%;
+}
+#visao_do_cliente h4
+{
+    position: relative;
+    font-size: 31px;
+    color: #3C3C3B;
+    font-weight: bolder;
+}
+#visao_do_cliente p
+{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #3C3C3B;
+}
+
+
+#como_funciona 
+{
+    position: relative;
+    max-width: 1910px;
+    margin-top: 56px;
+    text-align: left;
+}
+#como_funciona img
+{
+    max-width: 1900px;
+    margin-left: -3px;
+}
+#como_funciona .textbox4
+{
+    max-width: 600px;
+    margin-left: 1025px;
+    margin-top: -750px;
+}
+#como_funciona h3
+{
+    color: #39E5AC;
+    position: relative;
+    font-size: 61px;
+    max-width: 550px;
+}
+#como_funciona h4
+{
+    color:#3C3C3B;
+    font-size: 31px;
+    position: relative;
+    margin-top: 0px;
+}
+#como_funciona h5
+{
+    color: #39E5AC;
+    font-size: 21px;
+    position: relative;
+    margin-top: 30px;
+}
+#como_funciona p
+{
+    color: #3C3C3B;
+    font-size: 14px;
+    max-width: 452px;
+    max-height: 110px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#como_funciona .linkbanner2
+{
+    width: 223px;
+    height: 81px;
+    position: relative;
+    margin-left: -10px;
+    margin-top: 15px;
+    background-image: url(linkimg.png);
+    text-align: center;
+    align-content: center;
+}
+#como_funciona .linkbanner2 a
+{
+    position: relative;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    top: 24px;
+}
+#como_funciona h6
+{
+    color: #39E5AC;
+    font-size: 21px;
+    position: relative;
+    margin-top: 20px;
+}
+#como_funciona ul
+{
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#como_funciona li::marker
+{
+    color: #39E5AC;
+}
