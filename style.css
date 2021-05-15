@@ -31,7 +31,7 @@ header
 header.sticky
 {
     padding:10px 10px;
-    background-image: url(img/head.png) ;
+    background-image: url(head.png) ;
     
 }
 header .logo
@@ -129,7 +129,7 @@ header.sticky ul li a
     position: relative;
     margin-left: 1175px;
     margin-top: 55px;
-    background-image: url(img/linkimg.png);
+    background-image: url(linkimg.png);
     text-align: center;
     align-content: center;
 
@@ -426,7 +426,7 @@ header.sticky ul li a
     position: relative;
     margin-left: -10px;
     margin-top: 15px;
-    background-image: url(img/linkimg.png);
+    background-image: url(linkimg.png);
     text-align: center;
     align-content: center;
 }
@@ -632,7 +632,7 @@ header.sticky ul li a
     position: relative;
     margin-left: 375px;
     margin-top: 15px;
-    background-image: url(img/linkimg.png);
+    background-image: url(linkimg.png);
     text-align: center;
     align-content: center;
 
@@ -655,7 +655,7 @@ header.sticky ul li a
     position: relative;
     margin-left: 835px;
     margin-top: -75px;
-    background-image: url(img/linkimg.png);
+    background-image: url(linkimg.png);
     text-align: center;
     align-content: center;
 
@@ -678,7 +678,7 @@ header.sticky ul li a
     position: relative;
     margin-left: 1300px;
     margin-top: -80px;
-    background-image: url(img/linkimg.png);
+    background-image: url(linkimg.png);
     text-align: center;
     align-content: center;
 
